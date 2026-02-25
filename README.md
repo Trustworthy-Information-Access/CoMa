@@ -1,10 +1,13 @@
 # CoMa
 
 <p align="center">
-        &nbsp&nbsp 📙 <a href="https://arxiv.org/pdf/2511.08480">Valley Paper</a>&nbsp&nbsp 
+        &nbsp&nbsp 📙 <a href="https://arxiv.org/pdf/2511.08480">Our Paper</a>&nbsp&nbsp 
 </p>
 
 ## Introduction
+
+
+
 
 ## Architecture
 The overall architecture is shown as follows:
@@ -18,8 +21,13 @@ The overall architecture is shown as follows:
 <p>
 
 ## Data Preparation
+Our pre-training data construction files are located in the data_prepare folder. To obtain the final pre-trained data, you must sequentially execute sample.py, auto_q.py, and auto_a.py. Please note that you must replace the file paths and model names within each script. We use [vllm](https://github.com/vllm-project/vllm) to deploy and invoke MLLMs.
+
+## Environmental Requirements
+The packages we use during training and inference can be found in requirements.txt
 
 ## Training 
+
 
 ## Inference 
 
