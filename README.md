@@ -26,13 +26,18 @@ Our pre-training data construction files are located in the data_prepare folder.
 
 ## Environmental Requirements
 The packages we use during training and inference can be found in requirements.txt
+``` bash
+pip install -r requirements.txt
+```
 
 ## Training 
-
-
+``` bash
+pip install -r requirements.txt
+```
 ## Inference 
-
-
+``` bash
+pip install -r requirements.txt
+```
 
 ## License Agreement
 All of our open-source models are licensed under the [Apache-2.0](./LICENSE) license.
