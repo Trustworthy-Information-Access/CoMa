@@ -51,7 +51,7 @@ Location: Beijing
 
 Contact & Resume Submission: yuanwei05@kuaishou.com, wangyan33@kuaishou.com, yangbiao@kuaishou.com
 
-> Kuaishou多模态内容理解团队专注于适合短视频、直播、搜索推荐、电商的多模态大模型，为快手的各项业务提供基座模型技术支持，欢迎咨询(实习/全职)，期待和优秀的你，一起做有挑战的事情！
+> 快手多模态内容理解团队专注于适合短视频、直播、搜索推荐、电商的多模态大模型，为快手的各项业务提供基座模型技术支持，欢迎咨询(实习/全职)，期待和优秀的你，一起做有挑战的事情！
 >
 > 岗位城市：北京
 > 
