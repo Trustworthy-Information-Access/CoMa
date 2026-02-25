@@ -1,16 +1,28 @@
 # CoMa
 
+<p align="center">
+        &nbsp&nbsp 📙 <a href="https://arxiv.org/pdf/2511.08480">Valley Paper</a>&nbsp&nbsp 
+</p>
+
 ## Introduction
 
 ## Architecture
+The overall architecture is shown as follows:
+<div style="display: flex;">
+  <img src="doc/images/architecture.png" alt="opencompass" style="width: 100%; height: auto;" />
+</div>
 
 ## Performance
+<p align="center" style="display:flex;">
+    <img src="./doc/images/performance.png"/>
+<p>
 
 ## Data Preparation
 
 ## Training 
 
 ## Inference 
+
 
 
 ## License Agreement
