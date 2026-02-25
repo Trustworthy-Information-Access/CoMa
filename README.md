@@ -1,14 +1,12 @@
-# CoMa
+# CoMa: Compression then Matching: An Efficient Pre-training Paradigm for Multimodal Embedding
 
 <p align="center">
         &nbsp&nbsp 📙 <a href="https://arxiv.org/pdf/2511.08480">Our Paper</a>&nbsp&nbsp |
-        &nbsp&nbsp 🤗 <a href="https://huggingface.co/404-not-founds/CoMa">Our Model</a>&nbsp&nbsp
+        &nbsp&nbsp 🤗 <a href="https://huggingface.co/404-not-founds/CoMa">Our Models</a>&nbsp&nbsp
 </p>
 
 ## Introduction
-
-
-
+An effective embedding is expected to comprehensively preserve the semantic content of the input while simultaneously emphasizing features that are discriminative for downstream tasks. Recent approaches demonstrate that MLLMs can be adapted into competitive embedding models via large-scale contrastive learning, enabling the simultaneous optimization of two complementary objectives. We argue that the two aforementioned objectives can be decoupled: a comprehensive understanding of the input facilitates the embedding model in achieving superior performance in downstream tasks via contrastive learning. we propose \textbf{CoMa}, a compressed pre-training phase, which serves as a warm-up stage for contrastive learning. Experiments demonstrate that with only a small amount of pre-training data, we can transform a MLLM into a competitive embedding model. CoMa achieves new state-of-the-art results among MLLMs of comparable size on the MMEB, realizing optimization in both efficiency and effectiveness.
 
 ## Architecture
 The overall architecture is shown as follows:
@@ -38,6 +36,10 @@ pip install -r requirements.txt
 ``` bash
 pip install -r requirements.txt
 ```
+
+## Acknowledgements
+This project is based on the work of [VLM2Vec](https://github.com/TIGER-AI-Lab/VLM2Vec).  
+
 
 ## License Agreement
 All of our open-source models are licensed under the [Apache-2.0](./LICENSE) license.
