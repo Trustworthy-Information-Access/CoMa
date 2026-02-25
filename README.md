@@ -1,7 +1,8 @@
 # CoMa
 
 <p align="center">
-        &nbsp&nbsp 📙 <a href="https://arxiv.org/pdf/2511.08480">Our Paper</a>&nbsp&nbsp 
+        &nbsp&nbsp 📙 <a href="https://arxiv.org/pdf/2511.08480">Our Paper</a>&nbsp&nbsp |
+        &nbsp&nbsp 🤗 <a href="https://huggingface.co/404-not-founds/CoMa">Our Model</a>&nbsp&nbsp
 </p>
 
 ## Introduction
