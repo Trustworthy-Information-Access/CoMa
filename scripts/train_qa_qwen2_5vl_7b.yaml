@@ -1,0 +1,7 @@
+mmeb_imageonly_Qwen2_5VL-7B:
+    dataset_parser: llava_instruct
+    dataset_name: mmeb_imageonly_Qwen2_5VL-3B
+    dataset_path: data/mmeb_imageonly_Qwen2_5VL-7B.jsonl
+    image_dir: data/vlm2vec_train/MMEB-train
+    task_type: openqa
+    weight: 1
