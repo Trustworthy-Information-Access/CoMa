@@ -44,7 +44,7 @@ for spec in "${MODEL_SPECS[@]}"; do
       --master_port=2277 \
       --max_restarts=0 \
       eval.py \
-      --pooling eos \
+      --pooling avg \
       --normalize true \
       --per_device_eval_batch_size $BATCH_SIZE \
       --model_backbone \"$MODEL_BACKBONE\" \
